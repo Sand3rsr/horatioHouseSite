@@ -1,0 +1,21 @@
+{
+	"name": "xpaw/php-minecraft-query",
+	"description": "PHP library to query Minecraft servers",
+	"license": "MIT",
+	"keywords":
+	[
+		"minecraft"
+	],
+	"require":
+	{
+		"php": ">=7.0"
+	},
+	"require-dev":
+	{
+		"phpstan/phpstan": "^1.4"
+	},
+	"autoload":
+	{
+		"psr-4": { "xPaw\\": "src" }
+	}
+}
